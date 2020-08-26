@@ -1,8 +1,8 @@
 import app from "./app";
 
-const PORT = 4000;
+const PORT = 3000;
 
 const handleListening = () =>
-  console.log(`Listening on:http://localhost:${4000}`);
+  console.log(`Listening on:http://localhost:${PORT}`);
 
 app.listen(PORT, handleListening);
